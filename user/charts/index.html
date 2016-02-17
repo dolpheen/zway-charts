@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RazBerry Charts</title>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap-3.3.2-dist/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="libs/slider/css/slider.css"/>
+	<link rel="stylesheet" type="text/css" href="libs/datepicker/css/datepicker3.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+	<script type="text/javascript" src='libs/jquery-2.1.3.js'></script>
+	<script type="text/javascript" src='libs/defiant-latest.min.js'></script>
+	<script type="text/javascript" src='libs/bootstrap-3.3.2-dist/js/bootstrap.js'></script>
+	<script type="text/javascript" src='libs/slider/js/bootstrap-slider.js'></script>
+	<script type="text/javascript" src='libs/datepicker/js/bootstrap-datepicker.js'></script>
+	<script type="text/javascript" src='libs/FileSaver.min.js'></script>
+	<script type="text/javascript"
+          src="https://www.google.com/jsapi?autoload={
+            'modules':[{
+              'name':'visualization',
+              'version':'1',
+              'packages':['corechart']
+            }]
+          }"></script>
+    
+    <script type="text/javascript" src='js/razberry-charts.js'></script>
+
+</head>
+<body>
+	<div id="notification"><div id="notification-raz-software">not defined</div> <div id="notification-message"></div></div>
+	<span calss="info-text">Load local Log file</span>
+	<input type="file" id="log-file-input" name="files[]" class="btn btn-default btn-sm btn-primary" id="buttonRaw" />
+	<hr/>
+	<div id='charts'> </div>
+
+	<!-- <div id="curve_chart" style="width: 900px; height: 500px"></div> -->
+</body>
+</html>

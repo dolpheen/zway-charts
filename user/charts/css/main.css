@@ -1,0 +1,63 @@
+body {
+	padding: 20px;
+	/*background-color: #01445f;*/
+}
+
+#notification {
+	font-size: 14px;
+	color: #444464;
+	margin-bottom: 10px;
+}
+
+.first.interval-text {
+	font-size: 13px;
+	color: #2a8fbd;	
+}
+
+.interval-text {
+	font-size: 13px;
+	color: #2a5fbd;	
+}
+
+.chart-title-text {
+	color: #444444;
+}
+
+.info-text {
+	font-size: 14px;
+	color: #777777;	
+}
+
+.statistic-text {
+	font-size: 13px;
+	color: #2a8fbd;	
+}
+
+.chartsSeparator {
+	height: 20px;
+	border-top: solid 1px #2a8fbd;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.chart-slider.first {
+	float: left;
+	margin-right: 40px;
+}
+
+.slider.slider-horizontal	{
+	width: 400px;
+}
+
+.first .slider.slider-horizontal	{
+	width: 100px;
+}
+
+.input-datarange input {
+	height: 10px;
+}
+
+
+
+
+
