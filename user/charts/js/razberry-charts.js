@@ -77,7 +77,8 @@ function drawLogsChart( vLog ){
 
 	var data = google.visualization.arrayToDataTable(logArray);
 	var options = {
-		title: vLog.logData.deviceId,
+		//title: vLog.logData.deviceId,
+		title: '',
 		curveType: 'function',
 		legend: { position: 'bottom' },
 		colors: [ chartColors[chartCount % 6] ],
